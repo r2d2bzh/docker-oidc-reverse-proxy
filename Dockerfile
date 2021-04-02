@@ -1,4 +1,4 @@
-FROM docker-oidc-rp-apache:v0.0.0
+FROM r2d2bzh/oidc-rp-apache:0.0.0
 
 ARG USERID=1001
 
