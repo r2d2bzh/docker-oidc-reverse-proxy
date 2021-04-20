@@ -27,6 +27,7 @@ else
     export BACKEND_PORT=${BACKEND_PORT:-}
     export BACKEND_PROTO=${BACKEND_PROTO:-http}
     export PROXY_PUBLIC_PORT=${PROXY_PUBLIC_PORT:-${PROXY_PORT}}
+    export PROXY_PUBLIC_PROTO=${PROXY_PUBLIC_PROTO:-${PROXY_PROTO}}
     export OIDC_CALLBACK_URL=${OIDC_CALLBACK_URL:-/oauth2/callback}
     export CLIENT_ID=${CLIENT_ID:-changeme}
     export CLIENT_SECRET=${CLIENT_SECRET:-secret}
