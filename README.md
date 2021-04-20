@@ -44,6 +44,7 @@ The available environment variables can be sorted in several categories:
 |------------------------------|-------------------------------------------|:---------------------------------------------------------------------------|
 |  `PROXY_DOMAIN`              | `example.com`                             | The public hostname that will be used to access the protected application  |
 |  `PROXY_PORT`                | `8080`                                    | Port the reverse proxy will listen on. Must be exposed by Docker           |
+|  `PROXY_PUBLIC_PORT`         | `${PROXY_PORT}`                           | Port used in the redirect URI                                              |
 |  `PROXY_PROTO`               | `http`                                    | On which protocol (`http`/`https`) will connections be accepted            |
 
 #### Connection to the backend server (Fusion Directory)
